@@ -1,0 +1,50 @@
+# MATLAB
+*.asv
+*.autosave
+*.mex*
+*.pdb
+*.m~ 
+*.mat~
+*.slxc
+*.sldd
+*.mlproj
+*.mlx.autosave
+
+# MATLAB generated folders/files
+codegen/
+slprj/
+*.log
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python / notebook artifacts, if added later
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large video dataset
+dataset/**/*.mp4
+dataset/**/*.avi
+dataset/**/*.mov
+dataset/**/*.mkv
+
+# Keep the repository's optional sample video out if it is large.
+# Remove this rule only if you intentionally want to commit it.
+test_video.mp4
+
+# Local experiment/output files
+results/
+output/
+logs/
+
+# Local MATLAB preferences
+matlab.prf
